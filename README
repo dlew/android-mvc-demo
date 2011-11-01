@@ -1,0 +1,11 @@
+This is a small demo project that I setup in order to demonstrate how you can
+setup Fragment-based Android apps with a simple model-view-controller design.
+
+There are three classes here:
+
+InstanceFragment - the model, it is retained between config changes
+
+MyFragment - the view, it displays the UI
+
+MainActivity - the controller, it sets up the model/view and regulates the 
+               flow between the two.
